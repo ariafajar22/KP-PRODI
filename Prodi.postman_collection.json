@@ -1,0 +1,253 @@
+{
+	"info": {
+		"_postman_id": "68435d2e-b8c3-4930-8b3a-f47a33f81dd7",
+		"name": "Prodi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:8282/prodi",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "ProdiID",
+							"value": "005",
+							"type": "text"
+						},
+						{
+							"key": "KodeID",
+							"value": "990",
+							"type": "text"
+						},
+						{
+							"key": "FakultasID",
+							"value": "789",
+							"type": "text"
+						},
+						{
+							"key": "Nama",
+							"value": "KYLA",
+							"type": "text"
+						},
+						{
+							"key": "kodevir",
+							"value": "45546",
+							"type": "text"
+						},
+						{
+							"key": "NoRekening",
+							"value": "896646575",
+							"type": "text"
+						},
+						{
+							"key": "Nama_en",
+							"value": "Kylapr",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8282/prodi",
+					"host": [
+						"localhost"
+					],
+					"port": "8282",
+					"path": [
+						"prodi"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8282/prodi",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "ProdiID",
+							"value": "005",
+							"type": "text"
+						},
+						{
+							"key": "KodeID",
+							"value": "990",
+							"type": "text"
+						},
+						{
+							"key": "FakultasID",
+							"value": "789",
+							"type": "text"
+						},
+						{
+							"key": "Nama",
+							"value": "KYLA",
+							"type": "text"
+						},
+						{
+							"key": "kodevir",
+							"value": "45546",
+							"type": "text"
+						},
+						{
+							"key": "NoRekening",
+							"value": "896646575",
+							"type": "text"
+						},
+						{
+							"key": "Nama_en",
+							"value": "Kylapr",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8282/getprodis",
+					"host": [
+						"localhost"
+					],
+					"port": "8282",
+					"path": [
+						"getprodis"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8282/prodi",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "ProdiID",
+							"value": "005",
+							"type": "text"
+						},
+						{
+							"key": "KodeID",
+							"value": "990",
+							"type": "text"
+						},
+						{
+							"key": "FakultasID",
+							"value": "789",
+							"type": "text"
+						},
+						{
+							"key": "Nama",
+							"value": "KYLA",
+							"type": "text"
+						},
+						{
+							"key": "kodevir",
+							"value": "45546",
+							"type": "text"
+						},
+						{
+							"key": "NoRekening",
+							"value": "896646575",
+							"type": "text"
+						},
+						{
+							"key": "Nama_en",
+							"value": "Kylapr",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8282/prodi",
+					"host": [
+						"localhost"
+					],
+					"port": "8282",
+					"path": [
+						"prodi"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8282/prodi",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "ProdiID",
+							"value": "005",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "KodeID",
+							"value": "990",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "FakultasID",
+							"value": "789",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "Nama",
+							"value": "KYLA",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "kodevir",
+							"value": "45546",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "NoRekening",
+							"value": "896646575",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "Nama_en",
+							"value": "Kylapr",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8282/prodi/005",
+					"host": [
+						"localhost"
+					],
+					"port": "8282",
+					"path": [
+						"prodi",
+						"005"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
